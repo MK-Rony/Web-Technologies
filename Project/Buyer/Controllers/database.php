@@ -1,0 +1,14 @@
+<?php
+$hostName = "localhost";
+$dbUser = "root";
+$dbPass = "";
+$dbName = "my_app";
+
+
+$con = new mysqli($hostName, $dbUser, $dbPass, $dbName);
+
+if(!$con)
+{
+    die("Something Wrong!");
+}
+?>
